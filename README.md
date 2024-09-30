@@ -2,7 +2,7 @@
 # About
 ## How it works
 
-What you see is a web-face of an exchange system. The web face is used to create new tokens and display olready created tokens. Main part of the system is a token processor, a place where tokens get's processed and payed, and it's located on a different machine without a public IP address.
+What you see is a web-face of an exchange system (BTC -> NESS). The web face is used to create new tokens and display olready created tokens. Main part of the system is a token processor, a place where tokens get's processed and payed, and it's located on a different machine without a public IP address.
 
 # Advantages of tokens
 
