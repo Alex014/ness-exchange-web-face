@@ -1,0 +1,98 @@
+/* Additional styles for dark mode */
+body.dark-mode {
+    /* background-color: #15202B; */
+    background: URL(/img/ness-green.jpg);
+    color: #FFFFFF;
+    background-repeat: none;
+    background-size: auto 200%;
+}
+
+.btn-primary.dark-mode {
+    background-color: green;
+    color: #15202B;
+    font-weight: bold;
+
+}
+
+.btn-primary.dark-mode:active {
+    background-color: green;
+}
+
+.toggle-icon {
+        position: absolute;
+        width: 100px;
+        height: 40px;
+        top: 8px;
+        right: 72px;
+        cursor: pointer;
+}
+
+.container.dark-mode {
+        color: green;
+        box-shadow: 0 0 20px 5px rgba(0, 255, 0, 0.5);
+        background-color: #15202B;
+}
+
+.form-text.dark-mode {
+        font-weight: bold;
+        color: green;
+}
+
+h1.dark-mode, h3.dark-mode, h4.dark-mode, blockquote.dark-mode {
+        color: green;
+}
+
+.form-control.dark-mode {
+        outline-color: green;
+        border: 2px solid greenyellow;
+        
+}
+
+.form-label.dark-mode {
+        color: green;
+}
+
+.navbar.dark-mode {
+    background-color: black !important;
+}
+
+a.nav-link.dark-mode,a.navbar-brand.dark-mode {
+        color: green;
+}
+
+a.nav-link.dark-mode:hover,a.navbar-brand.dark-mode:hover {
+        color: lime;
+}
+
+a.nav-link.active.dark-mode {
+        color: green !important;
+        font-weight: bold;
+}
+
+#copy_button.dark-mode {
+        color: lime;
+        background-color: black;
+}
+
+.text-line.dark-mode {
+        color: green;
+}
+    
+.name.dark-mode, .value.dark-mode {
+        color: white;
+}
+
+
+p.dark-mode,li.dark-mode,p.dark-mode {
+        color: yellowgreen;
+    }
+cite.dark-mode {
+    color: white;
+}
+
+
+@media only screen and (min-width: 980px) {
+        .toggle-icon {
+                right: 8px;
+        }
+}
