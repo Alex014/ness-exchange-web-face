@@ -270,16 +270,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item">
-            <a class="nav-link <?php if(isset($__create)): ?>active<? endif; ?>" href="/create-token.php">Invest</a>
+            <a class="nav-link <?php if(isset($__create)): ?>active<?php endif; ?>" href="/create-token.php">Invest</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link <?php if(isset($__donations)): ?>active<? endif; ?>"  href="/donations.php">Investments</a>
+            <a class="nav-link <?php if(isset($__donations)): ?>active<?php endif; ?>"  href="/donations.php">Investments</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link <?php if(isset($__token)): ?>active<? endif; ?>"  href="/token.php">Find</a>
+            <a class="nav-link <?php if(isset($__token)): ?>active<?php endif; ?>"  href="/token.php">Find</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link <?php if(isset($__about)): ?>active<? endif; ?>"  href="/about.php">About</a>
+            <a class="nav-link <?php if(isset($__about)): ?>active<?php endif; ?>"  href="/about.php">About</a>
             </li>
         </ul>
         </div>
