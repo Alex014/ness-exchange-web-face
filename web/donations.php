@@ -27,8 +27,8 @@ usort($tokens, function ($token1, $token2) {
 <div class="container">
         <div class="row">
             <div class="col">
-                <h1>Investments</h1>
-                <h1>PR and development budget 10 BTC</h1>
+                <h1 class="investment">Investments</h1>
+                <h1 class="pr-budget">PR and Development Budget "<strong>10 BTC</strong>"</h1>
 
                 <div class="progress">
                 <div class="progress-bar bg-info" role="progressbar" aria-valuenow="<?=round($btc_summ*100/10)?>"
@@ -36,7 +36,7 @@ usort($tokens, function ($token1, $token2) {
                     style="width: <?=round($btc_summ*100/10)?>%;"><?=sprintf('%f',$btc_summ)?> BTC</div>
                 </div>
 
-                <h1>Investors</h1>
+                <h1 class="investors">Investors:</h1>
 
 <?php foreach ($tokens as $token): ?>
 

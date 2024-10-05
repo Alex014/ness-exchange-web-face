@@ -18,7 +18,7 @@
                     BTC address: <a href="https://www.blockchain.com/explorer/addresses/btc/<?=$token['btc_addr']?>" target=_blank><?=$token['btc_addr']?></a>
                 </h4>
 
-                <div class="input-group" style="align-items: end; width: 500px; height: 50px; margin-bottom: 20px; margin-left: 150px;">
+                <div class="input-group">
                     <input type="text" readonly class="form-control" value="<?=$token['btc_addr']?>" id="btc_addr"  style="margin: 0px;"/>
                     <span class="input-group-text" onclick="copy('#btc_addr','#copy_button')" id="copy_button">Copy</span>
                 </div>

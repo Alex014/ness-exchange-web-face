@@ -10,31 +10,31 @@
                 <h3>How it works</h3>
                 <p>
                 What you see is a web-face of an exchange system. 
-                The web face is used to create new tokens and display olready created tokens.
-                Main part of the system is a token processor, a place where tokens get's processed and payed, and it's located on a different machine without a public IP address.
+                The web face is used to create new Tokens and display already created tokens.
+                Main part of the system is a Token processor, a place where Tokens get's processed and payed, and it's located on a different machine without a public IP address.
                 </p>
 
-                <h3>Advantages of tokens</h3>
+                <h3>Advantages of Tokens</h3>
 
                 <ul>
                     <li>
                     Token with your contract will stay in blockchain forever.
                     If you put anything in a blockchain, it will stay there forever, this is how the blockchain works.
-                    This also means that nobody can delete the token.
+                    This also means that nobody can delete the Token.
                     </li>
                     <li>
-                    You can always proove ownership.
-                    You can prove ownership of the token by signing any piece of data with your NESS address.
+                    You can always prove ownership.
+                    You can prove ownership of the Token by signing any piece of data with your NESS address.
                     </li>
                     <li>
                     You can always check the balance of your NESS address.
                     </li>
                     <li>
-                    The token can be processed manualy.
-                    If everything fails, the token can be processed (payed) and checked manualy.
+                    The Token can be processed manualy.
+                    If everything fails, the Token can be processed (payed) and checked manualy.
                     </li>
                     <li>
-                    You can't hack this exchange unless you don't know where the token processor is located.
+                    You can't hack this exchange unless you know where the Token processor is located.
                     </li>
                 </ul>
 
