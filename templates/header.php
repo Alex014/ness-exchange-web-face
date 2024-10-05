@@ -1,6 +1,6 @@
+
 <!doctype html>
 <html lang="en">
-
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -71,7 +71,7 @@
             /* background-color: #367CA5; */
             background: URL(/img/nesss-blue.jpg);
             color: white;
-            font-family: Arial, sans-serif;
+            font-family: Georgia, sans-serif;
             background-repeat: none;
             background-size: auto 200%;
         }
@@ -83,13 +83,14 @@
             background-color: #FFFFFF;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: none;
         }
 
         .form-label {
             font-weight: bold;
             color: grey;
             position: absolute;
-            margin-top: 6%;
+            margin-top: 1%;
             margin-left: 6%;
         }
 
@@ -98,12 +99,23 @@
         .btn-primary {
             background-color: #367CA5;
             border: none;
-            margin-top: 7%;
+            margin-top: 2%;
             margin-left: 6%;
             color: white;
             border-radius: 5px;
             padding: 8px 15px;
             cursor: pointer;
+        }
+
+        .find-btn {
+            padding: 10px 240px 10px 240px;
+            text-align: center;
+            position: relative;
+            left: 2px;
+        }
+
+        .find-token-header {
+            text-align: center;
         }
 
         .btn-primary:active {
@@ -116,9 +128,60 @@
 
         h1,
         h3,
-        h4 {
+        h4{
             color: #367CA5;
             text-align: center;
+        }
+
+        .head {
+            position: relative;
+            left: 20%;
+            text-align: center;
+            color: white;
+            font-size: 1.5em;
+            background-color: #367CA5;
+            padding: 0 15px 0 15px;
+            border-radius: 50px;
+            opacity: 0.9;
+        }
+
+        .token-stored,
+        .token-left {
+            font-size: 0.8em;
+            opacity: 0.9;
+           position: relative;
+           left: 6%;
+           transform: scale(1, 1.2);
+            
+        }
+
+        .token-registration,
+        .token-name,
+        .blockquote,
+        .ness-address-explorer,
+        .ness-balance,
+        .btc-address,
+        .btc-balance,
+        .token-payement-process,
+        .thanks,
+        .blockquote-footer {
+            font-size: 0.8em;
+            opacity: 0.9;
+            transform: scale(1, 1.2);
+        }
+
+        .blockquote {
+            font-size: 0.9em;
+            opacity: 0.9;
+            transform: scale(1, 1.2);
+        }
+
+        .investment,
+        .pr-budget,
+        .investors {
+            font-size: 1.1em;
+            opacity: 0.9;
+            transform: scale(1, 1.2);
         }
 
         h4 {
@@ -130,7 +193,7 @@
             border-radius: 5px;
             color: #367CA5;
             outline-color: skyblue;
-            margin-top: 7%;
+            margin-top: 1%;
             margin-left: 6%;
             width: 90%;
             max-width: 500px;
@@ -140,10 +203,21 @@
             padding: 6px;
         }
 
+        .token-found,
+        .token-not-found,
+        .token-registered {
+            font-size: 0.5em;
+        }
+
+        .ness-payed-address,
+        .btc-payed-address {
+            font-size: 0.6em;
+        }
+
 
         .form-text {
             color: #1B4F73;
-            font-size: 10px;
+            font-size: 0.7em;
             margin-left: 7%;
         }
 
@@ -154,8 +228,9 @@
 
         .alert {
             color: red;
-            font-size: medium;
+            font-size: 0.7em;
             font-weight: bold;
+            opacity:0.8;
         }
 
         .result {
@@ -164,6 +239,7 @@
 
         .error {
             color: red !important;
+            opacity:0.8;
         }
 
         a.nav-link,a.navbar-brand {
@@ -255,9 +331,8 @@
             letter-spacing: 2px;
         }
     </style>
-
-    <link href="/css/darkmode.css" rel="stylesheet" />
-</head>
+ <link href="/css/darkmode.css" rel="stylesheet" />
+    </head>
 
 <body>
 

@@ -1,10 +1,11 @@
 <div class="container">
         <div class="row">
             <div class="col">
-                <h1>Create exchange token</h1>
-                <h3>This token will be stored in blockchain forever !</h3>
-                <h3>After creation, the BTC address will be generated, all funds sent to this address will be exchanged 1 to 1000000.</h3>
-                <h3>There are <?=$tokens?> tokens left</h3>
+                <span class="head">Create Exchange Token</span>
+                <p class="token-stored">This Token will be stored in blockchain forever !</p>
+               <p class="token-stored">After creation, the BTC address will be generated, all funds sent to this address will be exchanged 1 to 1000000.
+                </p>
+                <p class="token-left">There are <?=$tokens?> Tokens left</p>
 
                 <form method="POST">
                     <div class="mb-3">
@@ -16,21 +17,21 @@
 
 
                         <div id="nameHelp" class="form-text <?php if ('no_name' === $error): ?>error<?php endif ?>">
-                            Your name or nickname
+                            Your name or Nickname
                         </div>
                     </div>
 
                     <div class="mb-3">
                         <label for="name" class="form-label <?php if ('no_addr' === $error || 'addr_not_exist' === $error): ?>error<?php endif ?>">
-                            Ness address:
+                            NESS address:
                         </label><br>
 
                         <input type="text" class="form-control" id="address" name="address" value="<?= htmlentities($__address) ?>" placeholder="" required>
 
 
                         <div id="addressHelp" class="form-text <?php if ('no_addr' === $error || 'addr_not_exist' === $error): ?>error<?php endif ?>">
-                            Privateness address to recieve NESS<br/>
-                            It must be empty address from your Privateness wallet
+                            PrivateNess address to recieve NESS<br/>
+                            It must be empty address from your PrivateNess wallet
                         </div>
                     </div>
 
@@ -43,7 +44,7 @@
 
 
                         <div id="valueHelp" class="form-text">
-                            Your message to other investors</div>
+                            Your message to other Investors</div>
                     </div>
 
                     <button type="submit" class="btn btn-primary">
@@ -60,20 +61,20 @@
                 <?php elseif ('no_addr' === $error) : ?>
 
                     <div class="alert alert-danger" role="alert">
-                        Ness address empty
+                        NESS address empty
                     </div>
 
                 <?php elseif ('addr_not_exist' === $error) : ?>
 
                     <div class="alert alert-danger" role="alert">
-                        Ness address "<?=htmlentities($__address)?>" does not exist
+                        NESS address "<?=htmlentities($__address)?>" does not exist
                     </div>
 
                 <?php elseif ('connect_ness' === $error) : ?>
 
                     <div class="alert alert-danger" role="alert">
                         Internal error</br>
-                        Error connecting to Privatenesss network
+                        Error connecting to PrivateNesss Network
                     </div>
 
                 <?php elseif ('connect_emc' === $error) : ?>
