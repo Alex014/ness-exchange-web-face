@@ -7,8 +7,8 @@ use lib\Container;
 
 $tokenizer = Container::createTokenizer();
 
-// $tokens = $tokenizer->listPayedTokens();
-$tokens = $tokenizer->listRandomTokens();
+$tokens = $tokenizer->listPayedTokens();
+// $tokens = $tokenizer->listRandomTokens();
 $ness_summ = 0;
 
 foreach ($tokens as $token) {
