@@ -41,8 +41,8 @@
 
                 <h3>Contacts</h3>
                 <ul>
-                    <li>DEV: <a href="mailto:ceo@privateness.network">ceo@privateness.network</a></li>
-                    <li>CEO: <a href="mailto:chosenone111@protonmail.com">chosenone111@protonmail.com</a></li>
+                    <li>DEV: <a href="mailto:chosenone111@protonmail.com">chosenone111@protonmail.com</a></li>
+                    <li>CEO: <a href="mailto:ceo@privateness.network">ceo@privateness.network</a></li>
                 </ul>
 
             </div>
