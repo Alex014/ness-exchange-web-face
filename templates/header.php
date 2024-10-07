@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -26,6 +25,8 @@
 
             }
 
+            
+
             .btn-primary:hover {
                 background-color: #1F4E79;
             }
@@ -51,6 +52,7 @@
                 cursor: pointer;
 
             }
+
 
             .btn-primary:hover {
                 background-color: #1F4E79;
@@ -108,10 +110,11 @@
         }
 
         .find-btn {
-            padding: 10px 240px 10px 240px;
-            text-align: center;
-            position: relative;
-            left: 2px;
+            padding: 10px 4% 10px 4%;
+            display: block;
+            margin: 100px;
+            margin-top: 14px;
+            width: 40%;
         }
 
         .find-token-header {
@@ -134,8 +137,7 @@
         }
 
         .head {
-            position: relative;
-            left: 20%;
+            display: block;
             text-align: center;
             color: white;
             font-size: 1.5em;

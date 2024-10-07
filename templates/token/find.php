@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container find-form-container">
         <div class="row">
             <div class="col">
                 <h1 class="find-token-header">Find Token</h1>
