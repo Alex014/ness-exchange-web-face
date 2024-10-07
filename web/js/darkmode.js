@@ -2,6 +2,7 @@ $(document).ready(function () {
     // Toggle dark mode
     $(".toggle-icon").click(function () {
         $("body").toggleClass("dark-mode");
+        $(".head").toggleClass("dark-mode");
         $(".navbar").toggleClass("dark-mode");
         $("a.nav-link,a.navbar-brand").toggleClass("dark-mode");
         $(".btn-primary").toggleClass("dark-mode");

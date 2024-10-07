@@ -142,7 +142,8 @@
             color: white;
             font-size: 1.5em;
             background-color: #367CA5;
-            padding: 0 15px 0 15px;
+            padding: 0 15px 5px 15px;
+            margin-bottom: 15px;
             border-radius: 50px;
             opacity: 0.9;
         }
