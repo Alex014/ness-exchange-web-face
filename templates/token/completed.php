@@ -20,7 +20,7 @@
                 <h4 class="btc-balance">BTC balance: <?=$token['btc_balance']?> BTC</h4>
 
                 <h3 class="token-payement-process">
-                The token is payed and processed.
+                The token has been payed and processed.
                 </h3>
 
                 <h3 class="thanks">
