@@ -10,8 +10,8 @@
                 <h3>How it works</h3>
                 <p>
                 What you see is a web-face of an exchange system. 
-                The web face is used to create new Tokens and display already created tokens.
-                Main part of the system is a Token processor, a place where Tokens get's processed and payed, and it's located on a different machine without a public IP address.
+                The web-face is used to create new Tokens and display already created Tokens.
+                The main part of the system is a Token processor, a place where Tokens get processed and payed. It's located on a different machine without a public IP address.
                 </p>
 
                 <h3>Advantages of Tokens</h3>
@@ -30,8 +30,8 @@
                     You can always check the balance of your NESS address.
                     </li>
                     <li>
-                    The Token can be processed manualy.
-                    If everything fails, the Token can be processed (payed) and checked manualy.
+                    The Token can be processed manually.
+                    If everything fails, the Token can be processed (payed) and checked manually.
                     </li>
                     <li>
                     You can't hack this exchange unless you know where the Token processor is located.
