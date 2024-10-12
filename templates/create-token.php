@@ -31,7 +31,7 @@
 
                         <div id="addressHelp" class="form-text <?php if ('no_addr' === $error || 'addr_not_exist' === $error): ?>error<?php endif ?>">
                             PrivateNess address to receive NESS<br/>
-                            It must be empty an address from your PrivateNess wallet
+                            It must be an empty address from your PrivateNess wallet
                         </div>
                     </div>
 
